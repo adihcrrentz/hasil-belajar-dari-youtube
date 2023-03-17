@@ -1,0 +1,20 @@
+// contoh fungsi deklaratif di javascript
+function tampilNama(nama)
+{consol.log("hallo"+" "+nama)}
+
+tampilNama("adih")
+
+// dan pemnggilan nya bisa di balik karena ada fungsi yang bisa menyimpan fungsi deklaratif kedalam memori
+
+tampilNama("adih")
+
+function tampilNama(nama)
+{consol.log(`hallo ${nama}`)}
+
+/*kalau sebuah fungsi di taruh kedalam sebuah variabel maka fungsi itu akan
+menjadi fungsi expresif*/
+
+let tampil = function tampilNama(nama)
+            {consol.log(`halo ${nama}`)
+            
+// dan pemanggilannya tidak bisa di balik karena fungsi nya masuk kedalam sebuah variabel bukan ke memori
